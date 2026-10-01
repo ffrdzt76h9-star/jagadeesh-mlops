@@ -1,0 +1,34 @@
+{
+    "dataset_name": "Bank Marketing - Term Deposit Subscription",
+    "train_shape": [
+        32940,
+        46
+    ],
+    "test_shape": [
+        8236,
+        46
+    ],
+    "numerical_features": [
+        "age",
+        "campaign",
+        "pdays",
+        "previous",
+        "emp.var.rate",
+        "cons.price.idx",
+        "cons.conf.idx",
+        "euribor3m",
+        "nr.employed"
+    ],
+    "categorical_features": [
+        "job",
+        "marital",
+        "education",
+        "default",
+        "housing",
+        "loan",
+        "contact",
+        "month",
+        "day_of_week",
+        "poutcome"
+    ]
+}
